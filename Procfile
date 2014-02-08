@@ -1,0 +1,1 @@
+web: gunivorn eventex.wsgi
