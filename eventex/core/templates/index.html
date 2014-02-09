@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="todo">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="EventeX" />
@@ -8,11 +8,11 @@
  
 <title>EventeX</title>
 <link type="text/css" href="{{ STATIC_URL }}css/style.css" rel="stylesheet" media="screen" /> 
-<link type="text/css" href="{{ STATIC_URL }}css/bootstrap-theme.css" rel="stylesheet" media="screen" />
-<link type="text/css" href="{{ STATIC_URL }}css/bootstrap-theme.min.css" rel="stylesheet" media="screen" />
-<link type="text/css" href="{{ STATIC_URL }}css/bootstrap.css" rel="stylesheet" media="screen" /> 
-<link type="text/css" href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet" media="screen" /> 
-<script src="{{ STATIC_URL }}js/bootstrap.js"></script> 
+<link type="text/css" href="{{ STATIC_URL }}dist/css/bootstrap-theme.css" rel="stylesheet" media="screen" />
+<link type="text/css" href="{{ STATIC_URL }}dist/css/bootstrap-theme.min.css" rel="stylesheet" media="screen" />
+<link type="text/css" href="{{ STATIC_URL }}dist/css/bootstrap.css" rel="stylesheet" media="screen" /> 
+<link type="text/css" href="{{ STATIC_URL }}dist/css/bootstrap.min.css" rel="stylesheet" media="screen" /> 
+<script src="{{ STATIC_URL }}dist/js/bootstrap.js"></script> 
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
 </head>
@@ -22,23 +22,62 @@
   		<a class="navbar-brand" href="#">EventeX</a>
   		<ul class="nav navbar-nav pull-right visible-lg">
   			<li class="active">
-  				<a href="/"><span class="glyphicon glyphicon-home"></span> Home
-</a>
+  				<a href="/"><span class="glyphicon glyphicon-home"></span></a>
   			</li>
+  			<li><a href="#">Inscrições</a></li>
   			<li><a href="#">Sobre</a></li>
   			<li><a href="#">Contato</a></li>
   		</ul>
   		</div>
 	</nav>
-
-
-   
-
+	<div class="img-topo" style="background-image:url('{{ STATIC_URL }}img/pontanegranoite2.jpg')">
+		<p class='titulo-eventex'>Bem-vindo ao Eventex!</p>
+		<p class="p-titulo">O maior evento de Natal</p>
+		<p>Inscrições abertas em poucos dias!</p>
+		
+		<p>Para mais informações entre em contato com <a href="mailto:eventex@eventex.com.br">eventex@eventex.com.br</a></p>
+		 
+	</div>
+	<div class="sessao1"></div>
+	<div class="sessao-title"><h1 class="info">Eventex</h1></div>
+	<div class="sessao2"></div>
+	<div class="text-group">
+		<div class="text">
+		<p class="paragrafo">Texto</p>
+		<p>texto texto texto texto texto texto texto texto texto texto texto texto
+		texto texto texto texto texto texto texto texto texto texto texto texto texto</p>
+		</div>
+		<div class="text">
+		<p class="paragrafo">Texto</p>
+		<p>texto texto texto texto texto texto texto texto texto texto texto texto
+		texto texto texto texto texto texto texto texto texto texto texto texto texto</p>
+		</div>
+		<div class="text">
+		<p class="paragrafo">Texto</p>
+		<p>texto texto texto texto texto texto texto texto texto texto texto texto
+		texto texto texto texto texto texto texto texto texto texto texto texto texto</p>
+		</div>
+		<div class="text">
+		<p class="paragrafo">Texto</p>
+		<p>texto texto texto texto texto texto texto texto texto texto texto texto
+		texto texto texto texto texto texto texto texto texto texto texto texto texto</p>
+		</div>
+    </div>
+	<div class="footer">
+                     <p>
+                        &copy; 2014.
+                        <a rel="license" href="">EventeX</a>
+                        , some rights reserved.
+                        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/br/80x15.png" /> </a>
+                        <a href="http://www.djangoproject.com/" id="django" target="_blank"> <img src="https://djangoproject.com/s/img/badges/djangosite100x25.gif" border="0" alt="A Django site." title="A Django site." /> </a>
+                     </p>
+    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="{{ STATIC_URL}}js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="{{ STATIC_URL}}js/docs.min.js" type="text/javascript"></script>
-    <script src="{{ STATIC_URL}}js/jquery-2.1.0.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="{{ STATIC_URL}}dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="{{ STATIC_URL}}dist/js/bootstrap.js" type="text/javascript"></script>
+    
   </body>
 </html>
