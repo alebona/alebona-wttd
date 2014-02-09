@@ -4,33 +4,60 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="EventeX" />
 <meta http-equiv='content-Language' content='en-US' />
-<link type="image/x-icon" href="{{ STATIC_URL }}favicon.ico" rel="shortcut icon" />
+
  
 <title>EventeX</title>
- 
-<link type="text/css" href="{{ STATIC_URL }}css/style.css" rel="stylesheet" media="screen" />
- 
+<link type="text/css" href="{{ STATIC_URL }}css/cover.css" rel="stylesheet" media="screen" /> 
+<link type="text/css" href="{{ STATIC_URL }}css/bootstrap.css" rel="stylesheet" media="screen" /> 
+<link type="text/css" href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet" media="screen" /> 
+<script src="{{ STATIC_URL }}js/bootstrap.js"></script> 
+
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
 </head>
 <body>
-<div id="page">
-<div id="header">
-<center>
-<img src="{{ STATIC_URL }}img/logo-do-eventex.png" alt="EventeX" />
-</center>
-</div>
-<hr>
-<div id="content">
-<h1>Bem-vindo ao EventeX!</h1>
-<p>O evento mais sensacional do ano depois do Dev in Rio!</p>
-<p>Você não pode perder esta oportunidade!</p>
-<p><strong>Abertura das inscrições no próximo domingo.</strong></p>
-<p>Para dúvidas e mais informações entre em contato com <a href="mailto:eventex@eventex.com.br">eventex@eventex.com.br</a></p>
-</div>
-<hr>
-<div id="footer">
-<p>&copy; 2012. <a rel="license" href="http://eventex.herike.com">EventeX</a>, some rights reserved. <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/br/80x15.png" /></a><a href="http://www.djangoproject.com/" id="django"><img src="https://djangoproject.com/s/img/badges/djangosite100x25.gif" border="0" alt="A Django site." title="A Django site." /></a></p>
-</div>
-</div>
-</body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Eventex</h3>
+              <ol class="nav masthead-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre</a></li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Bem-vindo ao Eventex.</h1>
+            <p class="lead">O evento do ano.</p>
+            <p class="lead">Inscrições a partir do próximo domingo.</p>
+            <p class="lead">Para mais informações entre em contato com eventex@eventex.com.</p>
+            
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{{ STATIC_URL}}js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="{{ STATIC_URL}}js/docs.min.js" type="text/javascript"></script>
+    <script src="{{ STATIC_URL}}js/jquery-2.1.0.js" type="text/javascript"></script>
+  </body>
 </html>
