@@ -7,7 +7,9 @@
 
  
 <title>EventeX</title>
-<link type="text/css" href="{{ STATIC_URL }}css/cover.css" rel="stylesheet" media="screen" /> 
+<link type="text/css" href="{{ STATIC_URL }}css/style.css" rel="stylesheet" media="screen" /> 
+<link type="text/css" href="{{ STATIC_URL }}css/bootstrap-theme.css" rel="stylesheet" media="screen" />
+<link type="text/css" href="{{ STATIC_URL }}css/bootstrap-theme.min.css" rel="stylesheet" media="screen" />
 <link type="text/css" href="{{ STATIC_URL }}css/bootstrap.css" rel="stylesheet" media="screen" /> 
 <link type="text/css" href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet" media="screen" /> 
 <script src="{{ STATIC_URL }}js/bootstrap.js"></script> 
@@ -15,43 +17,22 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
 </head>
 <body>
+	<nav class="navbar navbar-inverse" role="navigation">
+  		<div class="container">
+  		<a class="navbar-brand" href="#">EventeX</a>
+  		<ul class="nav navbar-nav pull-right visible-lg">
+  			<li class="active">
+  				<a href="/"><span class="glyphicon glyphicon-home"></span> Home
+</a>
+  			</li>
+  			<li><a href="#">Sobre</a></li>
+  			<li><a href="#">Contato</a></li>
+  		</ul>
+  		</div>
+	</nav>
 
-    <div class="site-wrapper">
 
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Eventex</h3>
-              <ol class="nav masthead-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Sobre</a></li>
-              </ol>
-            </div>
-          </div>
-
-          <div class="inner cover">
-            <h1 class="cover-heading">Bem-vindo ao Eventex.</h1>
-            <p class="lead">O evento do ano.</p>
-            <p class="lead">Inscrições a partir do próximo domingo.</p>
-            <p class="lead">Para mais informações entre em contato com eventex@eventex.com.</p>
-            
-          </div>
-
-          <div class="mastfoot">
-            <div class="inner">
-              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
+   
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
