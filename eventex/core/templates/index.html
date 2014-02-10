@@ -7,6 +7,7 @@
 
  
 <title>EventeX</title>
+<link type="text/css" href="{{ STATIC_URL }}css/blog.css" rel="stylesheet" media="screen" /> 
 <link type="text/css" href="{{ STATIC_URL }}css/style.css" rel="stylesheet" media="screen" /> 
 <link type="text/css" href="{{ STATIC_URL }}dist/css/bootstrap-theme.css" rel="stylesheet" media="screen" />
 <link type="text/css" href="{{ STATIC_URL }}dist/css/bootstrap-theme.min.css" rel="stylesheet" media="screen" />
@@ -17,26 +18,17 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-inverse" role="navigation">
-  		<div class="container">
-  		<a class="navbar-brand" href="#">EventeX</a>
-  		<ul class="nav navbar-nav pull-right visible-lg">
-  			<li class="active">
-  				<a href="/"><span class="glyphicon glyphicon-home"></span></a>
-  			</li>
-  			<li><a href="#">Inscrições</a></li>
-  			<li><a href="#">Sobre</a></li>
-  			<li><a href="#">Contato</a></li>
-  		</ul>
-  		</div>
-	</nav>
-	<div class="img-topo" style="background-image:url('{{ STATIC_URL }}img/pontanegranoite2.jpg')">
-		<p class='titulo-eventex'>Bem-vindo ao Eventex!</p>
-		<p class="p-titulo">O maior evento de Natal</p>
-		<p>Inscrições abertas em poucos dias!</p>
-		
-		<p>Para mais informações entre em contato com <a href="mailto:eventex@eventex.com.br">eventex@eventex.com.br</a></p>
-		 
+	<div class="blog-masthead">
+		<div class="container">
+			<nav class="blog-nav"> 		
+  				<a href="/" class="blog-nav-item active"><span class="glyphicon glyphicon-home"></span></a>
+  				<a href="#" class="blog-nav-item">Inscrições</a>
+  				<a href="#" class="blog-nav-item">Sobre</a>
+  				<a href="#" class="blog-nav-item">Contato</a>
+			</nav>
+		</div>
+	</div>
+	<div class="img-topo" style="background-image:url('{{ STATIC_URL }}img/eventex_topo.png')">
 	</div>
 	<div class="sessao1"></div>
 	<div class="sessao-title"><h1 class="info">Eventex</h1></div>
@@ -63,7 +55,8 @@
 		texto texto texto texto texto texto texto texto texto texto texto texto texto</p>
 		</div>
     </div>
-	<div class="footer">
+   
+	<div class="blog-footer">
                      <p>
                         &copy; 2014.
                         <a rel="license" href="">EventeX</a>

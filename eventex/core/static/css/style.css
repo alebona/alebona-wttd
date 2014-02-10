@@ -11,10 +11,14 @@ body {
 margin: 0;
 padding: 0;
 font: .625em Georgia, Serif;
-background-color: #111111!important;
+background-color: #428bca!important;
 color: #363636;
-
-height: 900px;
+width: 100%
+height: 100%;
+}
+.container{
+	margin-bottom: 0px!important;
+	padding: 0px!important;
 }
 .navbar{
 	margin-bottom: 0px!important;
@@ -26,10 +30,10 @@ height: 900px;
 	position: relative;
 	float: left;
 	width: 1300px!important;
-	height: 400px!important;
+	height: 300px!important;
 	margin-bottom: 30px;
 	background-repeat: no-repeat;
-	background-size: 1300px 400px;
+	background-size: 100% 300px;
 
 }
 .img-topo img{
@@ -43,16 +47,6 @@ height: 900px;
 	margin: 0px;
 }
 
-.img-topo p{
-	font-size: 30px;
-	font-weight: bold;
-	text-align: left;
-	color: white;
-	margin-bottom: 5px;
-	margin-left: 20px;
-	
-
-}
 .titulo-eventex{
 	margin-top: 30px;
 }
@@ -123,6 +117,7 @@ height: 900px;
 }
 
 .footer{
+	display: table;
 	margin-top: 20px;
 	vertical-align: text-bottom;
 	position: absolute;
